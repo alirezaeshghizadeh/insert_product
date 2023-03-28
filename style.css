@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(83, 174, 180);
+}
+
+.container {
+    width: 400px;
+    height: 380px;
+    background-color: #fff;
+    margin: 120px auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+form input {
+    width: 100%;
+    padding: 7px;
+    margin-top: 10px;
+}
+
+#btnInsert {
+    background-color: #4caf50;
+    border: 0;
+    font-size: 20px;
+}
+
+#btnDel {
+    background-color: tomato;
+    border: 0;
+    font-size: 20px;
+    width: 100%;
+}
+
+#btnAll {
+    background-color: rgb(255, 166, 49);
+    border: 0;
+    font-size: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+td {
+    text-align: center;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th {
+    text-align: center;
+    padding: 16px;
+    background-color: rgb(255, 165, 255);
+}
